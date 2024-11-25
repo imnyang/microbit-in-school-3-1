@@ -1,3 +1,6 @@
+enum RadioMessage {
+    message1 = 49434
+}
 input.onButtonPressed(Button.A, function () {
     주사위 = randint(1, 6)
     if (주작 == 0) {
@@ -27,6 +30,3 @@ input.onButtonPressed(Button.B, function () {
 let 주사위 = 0
 let 주작 = 0
 주작 = 0
-basic.forever(function () {
-	
-})
